@@ -16,3 +16,26 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+  flex-basis: calc((100% - (2 * 24px)) / 3);
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+.gallery-image {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
