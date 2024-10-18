@@ -39,3 +39,15 @@
   height: 100%;
   object-fit: cover;
 }
+.sl-wrapper {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+.sl-wrapper .sl-close {
+  color: #fff !important;
+}
+.sl-wrapper .sl-navigation button {
+  color: #fff !important;
+}
+.sl-counter {
+  color: #fff !important;
+}

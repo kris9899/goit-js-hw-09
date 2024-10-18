@@ -90,7 +90,7 @@ function createMarkup(arr) {
 
 const lightbox = new SimpleLightbox('.gallery a', {
   overlayOpacity: 0.7,
-
   captionsData: 'alt',
   captionDelay: 250,
+  close: 'true',
 });
